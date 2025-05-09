@@ -68,7 +68,7 @@ export default function AccountPage() {
     const handleDeconnexion = () => {
         if (window.confirm("Êtes-vous sûr de vouloir vous déconnecter ?")) {
             // Vider toutes les données d'authentification
-            localStorage.clear(); // Au lieu de removeItem individuel
+            localStorage.clear();
             sessionStorage.clear();
 
             // Effacer également les cookies liés à l'authentification
@@ -82,13 +82,13 @@ export default function AccountPage() {
             });
 
             // Redirection vers la page de login
-            navigate("/login"); // Préférable à "/" pour plus de clarté
+            navigate("/");
         }
     };
 
     useEffect(() => {
         if (!userId || !authToken) {
-            alert("erreur de recuperation du token");
+            alert("sesion securisé ! vouz devez vous connecter !");
             navigate("/dashboard");
             return;
         }
