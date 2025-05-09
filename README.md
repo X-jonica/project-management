@@ -1,6 +1,6 @@
 Projet de gestion de projet pour developpeur 
 
-# Gestion de Projets - Captures d'écran
+# Gestion de Projets / Frontend seulement - Captures d'écran
 
 ## Flux de l'application
 
