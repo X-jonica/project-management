@@ -4,6 +4,12 @@ Projet de gestion de projet pour developpeur
 
 ## Flux de l'application
 
+### 1. Page d'acceuil
+![Page d'inscription](./public/images/homePage.png)  
+*Interface acceuil du projet*
+
+---
+
 ### 1. Page d'inscription
 ![Page d'inscription](./public/images/inscriptionPage.png)  
 *Interface pour créer un nouveau compte*
